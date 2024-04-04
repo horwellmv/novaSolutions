@@ -33,7 +33,7 @@
     
     <!-- Vista escritorio del Menu-->
     <nav class="container flex justify-between items-center">
-        <div class="py-5  text-color-azul-lapiz font-bold text-3xl">
+        <div class="py-5 ml-1 md:ml-0 text-color-azul-lapiz font-bold text-3xl">
             <a href="#home" class="opacity-85 hover:opacity-100"><span
                     class="text-color-naranja-pantone">Nova</span>Solutions</a>
         </div>
@@ -51,12 +51,12 @@
         </div>
 
         <!-- Vista mobil del Menu-->
-        <div id="hamburguesa" (click)="inOutMenu()" class="lg:hidden cursor-pointer p-2 z-10">
+        <div id="hamburguesa" (click)="inOutMenu()" class="lg:hidden p-2 z-10">
             <i class="fa-solid fa-bars " style="color:#F26419"></i>
         </div>
 
-        <div id="menu" class="hidden bg-color-negro h-[100vh] absolute inset-0">
-            <ul class="h-full grid place-items-center py-20 text-color-blanco">
+        <div id="menu" class="hidden mt-5 bg-color-negro bg-opacity-80 h-80 absolute inset-20">
+            <ul class="h-full grid place-items-center  text-color-blanco">
                 <li><a class="resaltar" id="menuLink" href="#" (click)="inOutMenu()">Home</a></li>
                 <li><a class="resaltar" id="menuLink" href="#" (click)="inOutMenu()">Servicios</a></li>
                 <li><a class="resaltar" id="menuLink" href="#" (click)="inOutMenu()">Testimonios</a></li>
