@@ -1,4 +1,4 @@
-<header>
+<header class="">
     <!-- Separador de pantalla mobil -->
     <div class="lg:hidden h-[100vh] absolute inset-0 -z-50 " style="overflow: hidden;">
         <svg preserveAspectRatio="none" viewBox="0 0 1200 120" xmlns="http://www.w3.org/2000/svg"
@@ -15,7 +15,6 @@
     </div>
 
     <!-- Separador de pantalla > large -->
-
     <div class="hidden  lg:block h-[100vh] absolute inset-0 -z-50 " style="overflow: hidden;">
         <svg preserveAspectRatio="none" viewBox="0 0 1200 120" xmlns="http://www.w3.org/2000/svg"
             style="fill: #242424; width: 320%; height: 250px; transform: scaleX(-1);">
@@ -55,8 +54,8 @@
             <i class="fa-solid fa-bars " style="color:#F26419"></i>
         </div>
 
-        <div id="menu" class="hidden mt-5 bg-color-negro bg-opacity-80 h-80 absolute inset-20">
-            <ul class="h-full grid place-items-center  text-color-blanco">
+        <div id="menu" class="hidden mt-36 bg-color-negro bg-opacity-90 h-auto absolute inset-0">
+            <ul class="h-80 grid place-items-center  text-color-blanco">
                 <li><a class="resaltar" id="menuLink" href="#" (click)="inOutMenu()">Inicio</a></li>
                 <li><a class="resaltar" id="menuLink" href="#" (click)="inOutMenu()">Servicios</a></li>
                 <li><a class="resaltar" id="menuLink" href="#" (click)="inOutMenu()">Casos de exito</a></li>
