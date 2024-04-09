@@ -1,3 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+.resaltar {
+    @apply hover:text-color-naranja-pantone ease-in duration-200;
+}
+
+.boton {
+    @apply bg-color-azul-lapiz  text-color-naranja-pantone px-7 py-2 rounded-md capitalize font-bold opacity-95 hover:opacity-100 ease-in duration-200 ;
+}
+
+.titulo {
+    @apply text-color-azul-lapiz text-4xl md:text-5xl font-bold mb-4 ;
+}
+
+.gota_izq {
+    @apply -left-40 sm:-left-5 top-96 -z-10 w-80 h-80 bg-color-blue-carolina absolute blur-3xl opacity-40 overflow-hidden rounded-full ;
+}
+
+.gota_der {
+    @apply -right-40 bottom-0 -z-10 w-80 h-80 bg-color-azul-lapiz absolute blur-2xl opacity-20 overflow-hidden rounded-full ;
+}
