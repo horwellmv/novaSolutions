@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 
+
 .resaltar {
     @apply hover:text-color-naranja-pantone ease-in duration-200;
 }
@@ -12,11 +13,11 @@
 }
 
 .titulo {
-    @apply text-color-azul-lapiz text-3xl md:text-4xl font-bold mb-4 ;
+    @apply text-color-azul-lapiz text-4xl md:text-5xl font-bold mb-4 ;
 }
 
 .gota_izq {
-    @apply -left-40 sm:-left-5 top-0 -z-10 w-80 h-80 bg-color-blue-carolina absolute blur-3xl opacity-40 overflow-hidden rounded-full ;
+    @apply -left-40 sm:-left-5 top-96 -z-10 w-80 h-80 bg-color-blue-carolina absolute blur-3xl opacity-40 overflow-hidden rounded-full ;
 }
 
 .gota_der {
