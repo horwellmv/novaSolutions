@@ -12,12 +12,14 @@ export class NavbarComponent {
     //Agregando la clase Hidden - hacer con cada componente.
     const home = document.querySelector("#home");
     const services = document.querySelector("#services");
+    const team = document.querySelector("#team");
 
-    const icono = document.querySelector(".fa-solid");
+    const icono = document.querySelector(".fa-bars");
 
     menu?.classList.toggle("hidden");
     home?.classList.toggle("hidden");
     services?.classList.toggle("hidden");
+    team?.classList.toggle("hidden");
 
     icono?.classList.toggle("fa-xmark");
   }

@@ -1,0 +1,43 @@
+.team-pic {
+    transition: all 1s ease;
+    border-radius: 9999px;
+    padding: 0.25rem;
+    cursor: pointer;
+}
+
+.active-pic{
+    border: 3px solid #ff7d3b ;
+    width: (2%);
+}
+
+.inactive-pic {
+    border: none;
+}
+
+.team-text {
+    animation: moveUp  1.5s linear forwards;
+}
+
+.inactive-text{
+    display: none;
+}
+
+.active-text{
+    display: block;
+}
+
+/* Este es una definicion de animacion para la clase .team-text */
+@keyframes moveUp { 
+    0% {
+        margin-top: 40px;
+        opacity: 0;
+    }
+    50% {
+        margin-top: 20px;
+        opacity: 0.1;
+    }
+    100% {
+        margin-top: 0px;
+        opacity: 1;
+    }
+}
