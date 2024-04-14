@@ -13,6 +13,7 @@ export class NavbarComponent {
     const home = document.querySelector("#home");
     const services = document.querySelector("#services");
     const team = document.querySelector("#team");
+    const footer = document.querySelector("#footer");
 
     const icono = document.querySelector(".fa-bars");
 
@@ -20,6 +21,7 @@ export class NavbarComponent {
     home?.classList.toggle("hidden");
     services?.classList.toggle("hidden");
     team?.classList.toggle("hidden");
+    footer?.classList.toggle("hidden");
 
     icono?.classList.toggle("fa-xmark");
   }
