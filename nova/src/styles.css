@@ -23,3 +23,19 @@
 .gota_der {
     @apply -right-40 bottom-0 -z-10 w-80 h-80 bg-color-azul-lapiz absolute blur-2xl opacity-20 overflow-hidden rounded-full ;
 }
+
+/* Este bg está sin usar en home - falta imagen adecuada */
+.bg-home{
+    background-image: url(assets/home-crecimiento.svg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:auto ;
+    background-attachment:local ;
+}
+.bg-service{
+    background-image: url(assets/home-organizacion.svg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:auto ;
+    background-attachment:local ;
+}
