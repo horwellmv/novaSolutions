@@ -32,12 +32,12 @@
     
     <!-- Vista escritorio del Menu-->
     <nav class="container flex justify-between items-center">
-        <div class="py-5 ml-1 md:ml-0 text-color-azul-lapiz font-bold text-3xl">
-            <a href="#home" class="opacity-85 hover:opacity-100"><span
+        <div class="py-5 ml-1 md:ml-0 text-color-azul-lapiz font-bold text-3xl md:text-5xl">
+            <a href="#home"><span
                     class="text-color-naranja-pantone">Nova</span>Solutions</a>
         </div>
         <div>
-            <ul class="hidden text-color-blanco lg:flex items-center space-x-6">
+            <ul class="hidden text-color-blanco text-xl lg:flex items-center space-x-6">
                 <li><a href="#" class="resaltar">Inicio</a></li>
                 <li><a href="#" class="resaltar">Servicios</a></li>
                 <li><a href="#" class="resaltar">Casos de exito</a></li>
@@ -50,12 +50,12 @@
         </div>
 
         <!-- Vista mobil del Menu-->
-        <div id="hamburguesa" (click)="inOutMenu()" class="lg:hidden p-2 z-10">
-            <i class="fa-solid fa-bars " style="color:#F26419"></i>
+        <div id="hamburguesa" (click)="inOutMenu()" class="lg:hidden mr-3 z-10">
+            <i class="fa-solid fa-bars fa-xl" style="color:#F26419"></i>
         </div>
 
-        <div id="menu" class="hidden mt-36 bg-color-negro bg-opacity-90 h-auto absolute inset-0">
-            <ul class="h-80 grid place-items-center  text-color-blanco">
+        <div id="menu" class="hidden mt-36 bg-color-blanco bg-opacity-90 h-auto absolute inset-0">
+            <ul class="h-80 grid place-items-center font-bold text-color-negro">
                 <li><a class="resaltar" id="menuLink" href="#" (click)="inOutMenu()">Inicio</a></li>
                 <li><a class="resaltar" id="menuLink" href="#" (click)="inOutMenu()">Servicios</a></li>
                 <li><a class="resaltar" id="menuLink" href="#" (click)="inOutMenu()">Casos de exito</a></li>
