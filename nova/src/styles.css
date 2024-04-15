@@ -13,7 +13,7 @@
 }
 
 .titulo {
-    @apply text-4xl md:text-5xl font-semibold mb-4 ;
+    @apply text-2xl md:text-5xl font-semibold mb-4 ;
 }
 
 .gota_izq {
